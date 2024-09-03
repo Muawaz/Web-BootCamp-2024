@@ -59,6 +59,10 @@ module.exports = {
         // console.log(arr.join(" "));
         mergeSort(arr, 0, arr.length - 1);
         console.log(arr)
+    },
+    getArray: function(arr) {
+        mergeSort(arr, 0, arr.length - 1);
+        return arr
     }
 }
 
