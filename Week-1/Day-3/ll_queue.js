@@ -1,3 +1,5 @@
+// Code retrieved from geeksforgeeks.com
+
 class Node {
     constructor(data) {
         this.data = data;
