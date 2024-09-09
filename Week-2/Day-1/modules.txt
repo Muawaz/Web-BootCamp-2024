@@ -3,3 +3,9 @@ npm init / npm init -y
 npm i express
 
 npm i -D nodemon
+
+"scripts": {
+    "start": "nodemon index.js"
+  },
+
+  npx express-generator // quick skeleton
