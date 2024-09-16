@@ -20,5 +20,6 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src"]
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/server.ts", "src/init-db.ts"],
+  "exclude": ["node_modules"]
 }
